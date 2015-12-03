@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="lib/ionic-platform-web-client/dist/ionic.io.bundle.min.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <!-- Cordova is bootstrapped by ionic-platform-web-client, uncomment this if you remove ionic-platform-web-client... -->
+  <!-- <script src="cordova.js"></script> -->
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+
+ </head>
+
+ <body ng-app="starter">
+
+  <ion-side-menus>
+   <!-- Left menu -->
+   <ion-side-menu side="left">
+    <ion-header-bar class="bar-dark">
+     <h1 class="title">Booklet Contents</h1>
+    </ion-header-bar>
+    <ion-content scroll="false">
+     <ion-list>
+      <ion-item href="ch002_email-email-lists.html">
+       Use email securely
+      </ion-item>
+      <ion-item href="ch003_anonymous-blogs-and-websites.html">
+       Anonymous Blogs and websites
+      </ion-item>
+      <ion-item href="ch004_microblogging-beyond-twitter.html">
+       Microblogging beyond Twitter
+      </ion-item>
+     </ion-list>
+    </ion-content>
+   </ion-side-menu>
+   <!-- Center content -->
+   <ion-side-menu-content>
+    <ion-header-bar class="bar-dark">
+         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+
+     <h1 class="title">Tech tools</h1>
+    </ion-header-bar>
+    <ion-content padding="1">
+
+     <blockquote>
+      <p>
+       <em>"According to the statement provided to the Court on 22nd November 2010 ... Automattic Inc (WordPress) were prepared to make a 'voluntary disclosure' of the website&#8217;s creator .... [and] did not appear to question the sheer extensiveness of the UoS request for information within this 'Document request' ... this is in my opinion, a clear breach of privacy and has far reaching implications for all bloggers who have an account with WordPress." Gary Duke, University of Salford lecturer sued for libel. </em><a title="ttfa.net/removeip" href="http://ttfa.net/gary"><strong>ttfa.net/gary</strong><em>
+       <br/>
+       </em></a>
+      </p>
+     </blockquote>
+     <p>
+      &#160;This chapter will:
+     </p>
+     <ul class = "list">
+      <li class="item">
+       <i class="icon ion-star"></i>
+       recommend secure blogs and websites
+      </li>
+      <li class="item">
+       <i class="icon ion-star"></i>
+       discuss the issues of anonymous blogging
+      </li>
+      <li class="item">
+       <i class="icon ion-star"></i>
+       explore different ways and tools to blog anonymously
+      </li>
+     </ul><h3>Issues with mainstream blogging sites</h3>
+     <p>
+      Many activists and campaign groups use free blog sites such as Blogger.com or Wordpress.com. However, these sites log IP addresses that reveal users' identities, and can be required by court decisions to reveal this information. There have been cases where Wordpress.com has handed over identities of bloggers and taken down websites on request of the authorities. Fortunately, anonymous blogging is possible (see also the chapter on using VPN, Tor and other ways to browse the internet anonymously).
+     </p>
+     <p><img src="static/anon_logo.png" alt="" width="300" height="300"/>
+     </p>
+     <h3>Use secure blogging services&#160;</h3>
+     <p>
+      We define "secure" as not logging IP addresses or any details of those who are uploading to or viewing the site.&#160;
+     </p>
+     <p>
+      <strong>Network23.org</strong> is one secure blogging service; they do not log any personal data, apart from your email address for password resets. You can sign up for an account from an independent email (see the chapter on email for more information) for complete anonymity.&#160;Other blogging services that don't log IP addresses include <strong>https://blogsport.eu</strong> and <strong>https://noblogs.org</strong>
+     </p>
+     <h3>Get more secure hosting</h3>
+     <p>
+      Wordpress is free software that you can install on your own server. If your server is configured correctly, &#160;and you istall the&#160;<strong>remove ip</strong>&#160;module for Apache [<a title="ttfa.net/removeip" href="http://ttfa.net/removeip"><strong>ttfa.net/removeip</strong></a>],you can ensure your blogs do not capture users' personal data. Other website software such as Joomla or Drupal can also be set up in this way.
+     </p>
+     <p>
+      <strong><a title="ttfa.net/removeip" href="https://tachanka.org/">Tachana.org</a></strong> offer secure privacy-concious website hosting to radical and grassroots groups internationally.&#160;<strong><a title="ttfa.net/removeip" href="https://ox4.org/">ox4.org</a></strong>&#160;was set up by activists in the Oxford area who "like doing activism, supporting activism infrastructure, and techie stuff". Their level of security is not as high as Tachanka.
+     </p>
+     <h3>Wordpress Networks</h3>
+     <p>
+      If you want to set up your own anonymous blogging service, a&#160;<strong>Wordpress Network&#160;</strong>is a good way to save time and effort. This is a multi-user set-up which reduces the site administrators' workload: when you update the code for the main site, all subsites are also updated.&#160;
+     </p>
+     <p>
+      The process of using a Wordpress network blog is nearly identical to a normal Wordpress blog. There is a basic help guide on the FlossManuals site: <a title="ttfa.net/removeip" href="http://ttfa.net/flosswp"><strong>ttfa.net/flosswp</strong></a>
+     </p>
+     <h2>What Next?</h2>
+     <ul class = "list item-text-wrap" >
+      <li class="item">
+       <i class="icon ion-star"></i>
+       sign up for a free secure blog or website at Network23.org
+      </li>
+      <li class="item">
+       <i class="icon ion-star"></i>
+       encourage people and groups to move insecure blogs to better hosting
+      </li>
+      <li class="item">
+       <i class="icon ion-star"></i>
+       work with trusted friends to set up your own anonymous blogging service (if you're a bit techie)
+      </li>
+      <li class="item">
+       <i class="icon ion-star"></i>
+       install the remove ip module on your server
+      </li>
+     </ul>
+
+    </ion-content>
+   </ion-side-menu-content>
+ </body>
+</html>
+

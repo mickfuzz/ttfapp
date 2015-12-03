@@ -1,0 +1,62 @@
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="primary_id">
+  <metadata>
+    <dc:publisher>FLOSS Manuals http://flossmanuals.net</dc:publisher>
+    <dc:rights>CC BY</dc:rights>
+    <dc:language>en</dc:language>
+    <dc:title>Tech Tools For activists</dc:title>
+    <dc:creator>The Contributors</dc:creator>
+    <dc:date opf:event="last-modified">2011-01-10</dc:date>
+    <dc:date opf:event="published">2011-09-20</dc:date>
+    <dc:date opf:event="start">2010-12-27</dc:date>
+    <dc:identifier id="primary_id">http://www.booki.cc/tech-tools-for-activists/2011.09.20-12.50</dc:identifier>
+  </metadata>
+  <manifest>
+    <item href="static/skull_phone_600.jpg" id="att010_skull_phone_600jpg" media-type="image/jpeg"/>
+    <item href="static/access_space.png" id="att013_access_spacepng" media-type="image/png"/>
+    <item href="static/video_subtitle_2_300.png" id="att000_video_subtitle_2_300png" media-type="image/png"/>
+    <item href="ch008_publishing-your-news.xhtml" id="ch008_publishing-your-news" media-type="application/xhtml+xml"/>
+    <item href="static/twitter_connections.png" id="att008_twitter_connectionspng" media-type="image/png"/>
+    <item href="ch007_mobile-phone-security-and-android-apps.xhtml" id="ch007_mobile-phone-security-and-android-apps" media-type="application/xhtml+xml"/>
+    <item href="static/anonblogs" id="att002_anonblogs" media-type="application/octet-stream"/>
+    <item href="ch002_email-email-lists.xhtml" id="ch002_email-email-lists" media-type="application/xhtml+xml"/>
+    <item href="static/Access_Space.jpg" id="att007_access_spacejpg" media-type="image/jpeg"/>
+    <item href="ch011_hiding-deleting-things-on-your-pc.xhtml" id="ch011_hiding-deleting-things-on-your-pc" media-type="application/xhtml+xml"/>
+    <item href="static/encrypt_03_cropped.png" id="att019_encrypt_03_croppedpng" media-type="image/png"/>
+    <item href="ch003_anonymous-blogs-and-websites.xhtml" id="ch003_anonymous-blogs-and-websites" media-type="application/xhtml+xml"/>
+    <item href="objavi.css" id="css" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="ch006_organising-networking-online.xhtml" id="ch006_organising-networking-online" media-type="application/xhtml+xml"/>
+    <item href="static/manilapatch.jpg" id="att017_manilapatchjpg" media-type="image/jpeg"/>
+    <item href="static/being_farmed_badge_ttfa.png" id="att004_being_farmed_badge_ttfapng" media-type="image/png"/>
+    <item href="static/Status.net-logo-color-big-flat-500x300.png" id="att011_statusnet-logo-color-big-flat-500x300png" media-type="image/png"/>
+    <item href="ch010_green-computing.xhtml" id="ch010_green-computing" media-type="application/xhtml+xml"/>
+    <item href="static/bethemedia.png" id="att009_bethemediapng" media-type="image/png"/>
+    <item href="ch004_microblogging-beyond-twitter.xhtml" id="ch004_microblogging-beyond-twitter" media-type="application/xhtml+xml"/>
+    <item href="static/diaspora.png" id="att012_diasporapng" media-type="image/png"/>
+    <item href="static/irc_window.png" id="att015_irc_windowpng" media-type="image/png"/>
+    <item href="static/logo3_0.png" id="att016_logo3_0png" media-type="image/png"/>
+    <item href="static/irc_window_cropped.png" id="att005_irc_window_croppedpng" media-type="image/png"/>
+    <item href="static/video_subtitle_1_300.png" id="att006_video_subtitle_1_300png" media-type="image/png"/>
+    <item href="static/twitterconnect.png" id="att014_twitterconnectpng" media-type="image/png"/>
+    <item href="ch009_uploading-media-to-the-internet.xhtml" id="ch009_uploading-media-to-the-internet" media-type="application/xhtml+xml"/>
+    <item href="static/anon_logo.png" id="att003_anon_logopng" media-type="image/png"/>
+    <item href="static/encrypt_03.png" id="att018_encrypt_03png" media-type="image/png"/>
+    <item href="ch001_an-introduction-to-this-booklet.xhtml" id="ch001_an-introduction-to-this-booklet" media-type="application/xhtml+xml"/>
+    <item href="ch005_browsing-the-internet-safely.xhtml" id="ch005_browsing-the-internet-safely" media-type="application/xhtml+xml"/>
+    <item href="static/2579455977_d54d616d41.jpg" id="att001_2579455977_d54d616d41jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="ch001_an-introduction-to-this-booklet"/>
+    <itemref idref="ch002_email-email-lists"/>
+    <itemref idref="ch003_anonymous-blogs-and-websites"/>
+    <itemref idref="ch004_microblogging-beyond-twitter"/>
+    <itemref idref="ch005_browsing-the-internet-safely"/>
+    <itemref idref="ch006_organising-networking-online"/>
+    <itemref idref="ch007_mobile-phone-security-and-android-apps"/>
+    <itemref idref="ch008_publishing-your-news"/>
+    <itemref idref="ch009_uploading-media-to-the-internet"/>
+    <itemref idref="ch010_green-computing"/>
+    <itemref idref="ch011_hiding-deleting-things-on-your-pc"/>
+  </spine>
+  <guide/>
+</package>

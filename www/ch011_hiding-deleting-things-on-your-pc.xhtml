@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title/><link href="objavi.css" type="text/css" rel="stylesheet"/></head><body><h1>Hiding &amp; Deleting Things on your PC
+</h1>
+<blockquote>
+  <p><span>During the controversy over the Iran-contra affair, in 1986, Lieutenant Colonel Oliver North attempted to erase all the relevant e-mail messages on his computer; he repeatedly pressed the DELETE button, thinking that he was thereby expunging the messages.&#160; "Wow, were we wrong!" he later observed</span>&#160;
+  </p>
+</blockquote>
+<p>After reading this chapter you will have the knowledge to;
+</p>
+<ul><li>delete files and data securely so that no-one will recover them</li>
+  <li>encrypt information on your computer</li>
+  <li>give you an introduction to the encryption software TrueCrypt</li>
+</ul><h3>Deleting Files Securely
+</h3>
+<p>With a harddisk even if you erased every piece of data, it is sometimes possible with (very) specialized hardware to recover pieces of the data. If the data is very confidential and must be erased with the greatest care, you can use software to "overwrite" all pieces of data with random data. When this is done multiple times, this will make the data untraceable.
+</p>
+<p><strong>Securely delete data under Windows</strong>: For Windows there is a good open source tool called "File Shredder". This tool can be downloaded from <strong><a title="ttfa.net/wipe" href="http://www.fileshredder.org/">fileshredder.org</a></strong>
+</p>
+<p><strong>Securely delete data under MacOSX</strong> There are basically to build-in steps to make to securely delete your data on Mac OSX. You can find out how to do this here - <strong><a title="ttfa.net/wipe" href="http://ttfa.net/delete">ttfa.net/delete</a></strong>
+</p>
+<p><strong>Securely delete data under Ubuntu/Linux</strong> Unfortunately currently there is no graphical user interface available for Ubuntu to delete files secure. There are two command-line programs available though -&#160;<strong>shred</strong> &amp;&#160;<strong>wipe</strong>.
+</p>
+<p><strong>Shred</strong> is installed in Ubuntu by default and can delete single files. Wipe is not installed by default but can easily be installed with using Ubuntu Software Center or if you understand the command line you can install it with <em>apt-get install wipe.</em> <strong>Wipe</strong> is a little more secure and has nicer options. It is possible make access to these program's easy by adding it as an extra menu option. There is more information on this here -&#160;<a title="ttfa.net/wipe" href="http://ttfa.net/wipe"><strong>ttfa.net/wipe</strong></a>
+</p>
+<h3>Hiding Files
+</h3>
+<p>There are three basic solutions for hiding files - <strong>physical hiding</strong>, <strong>encryption</strong> and <strong>misdirection</strong>. Physical hiding would mean using a portable medium such a USB key and keeping it in a secure location, only to be brought out for editing.&#160;Encryption is another solution which does not require any physical movement of media. Encrypted data cannot be read directly and must go through some kind of unlocking in order to be useful.&#160;Misdirection, hiding in a place on a device (i.e. a hard disk), a filesystem, or within another file or container, where nobody would think to look..
+</p>
+<div id="wiki_html">
+  <h3>Using True Crypt
+  </h3>
+  <p>The tool <strong>TrueCrypt</strong>, which is is available for Window, Mac and Llinux, uses both encryption and misdirection. <strong>TrueCrypt</strong> will protect your data from being accessed by locking it with a password that you will create. If you forget that password, you will lose access to your data! <strong>TrueCrypt</strong> uses a process called encryption to protect your files. Rather than encrypting specific files, <strong>TrueCrypt</strong> creates a protected area, called a <em>volume</em>, on your computer. You can safely store your files inside this encrypted volume.&#160;There is help online for installing, encrypting&#160;and using hidden volumes&#160;using True Crypt as part of the <a href="http://en.flossmanuals.net/basic-internet-security/ch035_introduction-to-securing-personal-data/">Basic Internet Security book.</a>
+  </p>
+  <p><strong>UPDATE:</strong> The developers of True Crypt have stopped working on the the project. While many are looking for an alternative in the long term, a software audit by @OpenCryptoAudit is that version 7.1a is safe to use.<a href="https://github.com/AuditProject/truecrypt-verified-mirror"> It can be downloaded here. </a>
+    <br/></p>
+  <h3>More Tips
+  </h3>
+  <p><strong><strong>Encrypting in Ubuntu:</strong></strong>&#160;Ubuntu and offers the user the chance to encrypt the home directory and your entire drive during the installation process. The installation wizard will ask you to choose the partitioning method where we need to choose the &#8216;Guided &#8211; use entire disk and set up encrypted LVM&#8217; option to encrypt our entire hard disk.
+  </p>
+  <p><strong>Virtual Memory:</strong> On all modern operating systems (e.g. Linux, Windows or OS X), there exists a feature called virtual memory. &#160;If you are not encrypting your entire hard drive you must also encrypt the pagefile or swap space to prevent people from reading the virtual memory.
+  </p>
+  <p><strong>When encryption doesn't work:&#160;</strong>If your computer/laptop has been bugged or compromised in some way and your keystrokes are being recorded, it doesn't matter how good your cryptography is. Using a secure operating system which prevents keylogger installation (such as Linux), is a useful first step towards enhanced security.
+  </p>
+  <h2>What Next?
+  </h2>
+  <ul><li>Try out some of the software and techniques listed here.</li>
+    <li>Spread the word about how to securely delete files.</li>
+    <li>Try running a workshop on how to securely delete files</li>
+    <li>Install TrueCrypt and try encrypting drive and creating hidden volumes</li>
+    <li>Try encrypting your drives when you next install Ubuntu</li>
+  </ul></div></body></html>
