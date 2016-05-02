@@ -1,0 +1,86 @@
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="http://booki.cc/UNKNOWN/2015.06.29-10.14.40" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Tech Tools For activists</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="chapter0" playOrder="1">
+      <navLabel>
+        <text>Tech Tools For Activism</text>
+      </navLabel>
+      <content src="ch001_an-introduction-to-this-booklet.xhtml"/>
+      <navPoint id="chapter1" playOrder="1">
+        <navLabel>
+          <text>An Introduction to this Booklet</text>
+        </navLabel>
+        <content src="ch001_an-introduction-to-this-booklet.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter2" playOrder="2">
+        <navLabel>
+          <text>Email &amp; Email Lists</text>
+        </navLabel>
+        <content src="ch002_email-email-lists.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter3" playOrder="3">
+        <navLabel>
+          <text>Anonymous Blogs and Websites</text>
+        </navLabel>
+        <content src="ch003_anonymous-blogs-and-websites.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter4" playOrder="4">
+        <navLabel>
+          <text>Microblogging Beyond Twitter </text>
+        </navLabel>
+        <content src="ch004_microblogging-beyond-twitter.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter5" playOrder="5">
+        <navLabel>
+          <text>Browsing the Internet Safely</text>
+        </navLabel>
+        <content src="ch005_browsing-the-internet-safely.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter6" playOrder="6">
+        <navLabel>
+          <text>Organising &amp; Networking Online</text>
+        </navLabel>
+        <content src="ch006_organising-networking-online.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter7" playOrder="7">
+        <navLabel>
+          <text>Mobile Phone Security and Android Apps</text>
+        </navLabel>
+        <content src="ch007_mobile-phone-security-and-android-apps.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter8" playOrder="8">
+        <navLabel>
+          <text>Publishing your News</text>
+        </navLabel>
+        <content src="ch008_publishing-your-news.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter9" playOrder="9">
+        <navLabel>
+          <text>Uploading Media to the Internet</text>
+        </navLabel>
+        <content src="ch009_uploading-media-to-the-internet.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter10" playOrder="10">
+        <navLabel>
+          <text>Green Computing</text>
+        </navLabel>
+        <content src="ch010_green-computing.xhtml"/>
+      </navPoint>
+      <navPoint id="chapter11" playOrder="11">
+        <navLabel>
+          <text>Hiding &amp; Deleting Things on your PC</text>
+        </navLabel>
+        <content src="ch011_hiding-deleting-things-on-your-pc.xhtml"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
